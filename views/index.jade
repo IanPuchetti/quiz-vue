@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  #app
+   transition(name="fade")
+    div(v-if="show=='questions'")
+     question(v-bind:question="question[actual].question")
+     answers(v-bind:answers="question[actual].answers")
+     span(v-on:click="fade('questions',true)")  Siguiente
+  script(src='/js/quiz.js')

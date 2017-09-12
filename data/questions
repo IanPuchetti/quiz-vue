@@ -1,0 +1,46 @@
+{"k":"0000000078","o":"0000000172","v":"001"}
+{"_id":1,"_uid":1,"_dt":1504393456277,"_s":"83aafc31bd7f7052f24d3ac9d5a4cef9"}
+{"question":"¿Cuánto es 2+2?","answers":[{"id":1,"answer":"4"},{"id":2,"answer":"5"},{"id":3,"answer":"6"},{"id":4,"answer":"2"}],"answer":1,"_id":{"$wrap":"$oid","v":1}}
+{"k":"0000000078","o":"0000000213","v":"001"}
+{"_id":2,"_uid":2,"_dt":1504394434309,"_s":"f6af165f0bde46c2bc7533b11efd4222"}
+{"question":"¿En qué año terminó la 2° Guerra Mundial?","answers":[{"id":1,"answer":"1943"},{"id":2,"answer":"1945"},{"id":3,"answer":"1938"},{"id":4,"answer":"1949"}],"answer":2,"_id":{"$wrap":"$oid","v":2}}
+{"k":"0000000078","o":"0000000191","v":"001"}
+{"_id":3,"_uid":3,"_dt":1504399065319,"_s":"26242e85c4f53e02df713fc443c46985"}
+{"question":"¿Cuál es la raíz cuadrada de 25?","answers":[{"id":1,"answer":"5"},{"id":2,"answer":"3"},{"id":3,"answer":"7"},{"id":4,"answer":"10"}],"answer":1,"_id":{"$wrap":"$oid","v":3}}
+{"k":"0000000078","o":"0000000212","v":"001"}
+{"_id":4,"_uid":4,"_dt":1504401468464,"_s":"a7bd0fa60217527f989edefb6e2e556f"}
+{"question":"¿De qué color es Patricio Estrella?","answers":[{"id":1,"answer":"Naranja"},{"id":2,"answer":"Amarillo"},{"id":3,"answer":"Rosa"},{"id":4,"answer":"Verde"}],"answer":3,"_id":{"$wrap":"$oid","v":4}}
+{"k":"0000000078","o":"0000000217","v":"001"}
+{"_id":5,"_uid":5,"_dt":1504401551176,"_s":"faa5e41c3621832d4e6bc4b76e135282"}
+{"question":"¿Qué color le sigue al amarillo en Taekwondo?","answers":[{"id":1,"answer":"Rojo"},{"id":2,"answer":"Verde"},{"id":3,"answer":"Azul"},{"id":4,"answer":"Blanco"}],"answer":2,"_id":{"$wrap":"$oid","v":5}}
+{"k":"0000000078","o":"0000000205","v":"001"}
+{"_id":6,"_uid":6,"_dt":1504401622118,"_s":"da1507b2fec9dbd809021e9a33dd7f92"}
+{"question":"¿En qué año falleció Jimi Hendrix?","answers":[{"id":1,"answer":"1970"},{"id":2,"answer":"1972"},{"id":3,"answer":"1975"},{"id":4,"answer":"1969"}],"answer":1,"_id":{"$wrap":"$oid","v":6}}
+{"k":"0000000078","o":"0000000225","v":"001"}
+{"_id":7,"_uid":7,"_dt":1504401843963,"_s":"2fa7859d2375fc22d294d879a159dbc8"}
+{"question":"¿Qué color se forma mezclando el amarillo y azul?","answers":[{"id":1,"answer":"Naranja"},{"id":2,"answer":"Rojo"},{"id":3,"answer":"Violeta"},{"id":4,"answer":"Verde"}],"answer":4,"_id":{"$wrap":"$oid","v":7}}
+{"k":"0000000078","o":"0000000260","v":"001"}
+{"_id":8,"_uid":8,"_dt":1504402648273,"_s":"8d60b6f0c922484c871308f509019408"}
+{"question":"¿De qué color es la bandera de Argentina?","answers":[{"id":1,"answer":"Azul y verde"},{"id":2,"answer":"Celeste y blanca"},{"id":3,"answer":"Roja y marron"},{"id":4,"answer":"Ninguna de las anteriores"}],"answer":2,"_id":{"$wrap":"$oid","v":8}}
+{"k":"0000000078","o":"0000000191","v":"001"}
+{"_id":9,"_uid":9,"_dt":1504403496805,"_s":"86b88d1b1a418d4fd12c53d0a4924461"}
+{"question":"¿Cuántas patas tiene una hormiga?","answers":[{"id":1,"answer":"6"},{"id":2,"answer":"4"},{"id":3,"answer":"8"},{"id":4,"answer":"10"}],"answer":1,"_id":{"$wrap":"$oid","v":9}}
+{"k":"0000000080","o":"0000000247","v":"001"}
+{"_id":10,"_uid":10,"_dt":1504403576176,"_s":"912de0680e8b931a979c9cef98b15796"}
+{"question":"¿Quién es el autor de la Mona Lisa?","answers":[{"id":1,"answer":"Vincent Van Gogh"},{"id":2,"answer":"Pablo Picasso"},{"id":3,"answer":"Leonardo Da Vinci"},{"id":4,"answer":"Miguel Angel"}],"answer":3,"_id":{"$wrap":"$oid","v":10}}
+{"k":"0000000080","o":"0000000214","v":"001"}
+{"_id":11,"_uid":11,"_dt":1504403888523,"_s":"c0de7ed75e45852171a144bb87032ed2"}
+{"question":"¿Cuántas filas y columnas tiene un tablero de ajedrez?","answers":[{"id":1,"answer":"12"},{"id":2,"answer":"10"},{"id":3,"answer":"6"},{"id":4,"answer":"8"}],"answer":4,"_id":{"$wrap":"$oid","v":11}}
+{"k":"0000000080","o":"0000000204","v":"001"}
+{"_id":12,"_uid":12,"_dt":1504404042781,"_s":"4f514da0eefcd79412edd17e616aff3d"}
+{"question":"¿Con cuántas cartas en mano se juega al truco?","answers":[{"id":1,"answer":"4"},{"id":2,"answer":"3"},{"id":3,"answer":"6"},{"id":4,"answer":"5"}],"answer":2,"_id":{"$wrap":"$oid","v":12}}
+{"k":"0000000080","o":"0000000237","v":"001"}
+{"_id":13,"_uid":13,"_dt":1504404104260,"_s":"f86a9b5b64c78dd5b0d18b126071f305"}
+{"question":"¿Qué pieza del ajedrez puede moverse en forma de L?","answers":[{"id":1,"answer":"El alfil"},{"id":2,"answer":"El rey"},{"id":3,"answer":"El caballo"},{"id":4,"answer":"El peón"}],"answer":3,"_id":{"$wrap":"$oid","v":13}}
+{"k":"0000000080","o":"0000000239","v":"001"}
+{"_id":14,"_uid":14,"_dt":1504404264110,"_s":"529d27e16bfc9c156ba7fe29642ae887"}
+{"question":"¿Cuál es el sistema que utiliza dos valores numéricos?","answers":[{"id":1,"answer":"Octal"},{"id":2,"answer":"Decimal"},{"id":3,"answer":"Binario"},{"id":4,"answer":"Hexadecimal"}],"answer":3,"_id":{"$wrap":"$oid","v":14}}
+{"k":"0000000080","o":"0000000208","v":"001"}
+{"_id":15,"_uid":15,"_dt":1504404317813,"_s":"c086dd8f9de9bbc300ee89b81fc2b772"}
+{"question":"¿En qué año cayó el muro de Berlin?","answers":[{"id":1,"answer":"1990"},{"id":2,"answer":"1976"},{"id":3,"answer":"1985"},{"id":4,"answer":"1989"}],"answer":4,"_id":{"$wrap":"$oid","v":15}}
+{
