@@ -45,11 +45,11 @@ const components={
     template: '<div class="content">{{question}}</div>'
   },
   'answers': {
-    props: ['answers','colors'],
+    props: ['answers'],
     template: `<div>
                     <div class="answers"
                          v-for="answer in answers"
-                         v-bind:style="{'border-color':colors[answer.id-1]}"
+                         v-bind:style="{'border-color':answer.color}"
                          v-on:click="check(answer.id)">
                           {{answer.answer}}
                         </div>
@@ -62,11 +62,12 @@ const components={
         })
           .then(function (response) {
             if(response.data=='yes'){
-              app.colors[selected-1]='green'
+              app.questions[app.actual].answers[selected-1].color='green'
               app.player.points+=20
             }else{
-              app.colors[selected-1]='red'
+              app.questions[app.actual].answers[selected-1].color='red'
             }
+            app.fade('questions',true)
           })
         }
     }
@@ -102,10 +103,10 @@ const data = {
     points:0
   },
   colors:[
-    'red',
-    'red',
-    'red',
-    'green'
+    '',
+    '',
+    '',
+    ''
   ]
 }
 
