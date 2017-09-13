@@ -1,10 +1,20 @@
 extends layout
 
 block content
-  #app
-   transition(name="fade")
-    div(v-if="show=='questions'")
-     question(v-bind:question="question[actual].question")
-     answers(v-bind:answers="question[actual].answers")
-     span(v-on:click="fade('questions',true)")  Siguiente
+  transition(name="fade")#app
+   div(v-if="show=='intro'")
+    .title Bienvenido a Quiz
+    .content
+     input(v-model="player.name", placeholder="Tu nombre...")
+     button.big(v-on:click="fade('questions')") Comenzar
+     button.big(v-on:click="ranking") Ranking
+     button.big(v-on:click="fade('new-question')") Agregar pregunta
+   div(v-if="show=='questions'")
+    question(v-bind:question="questions[actual].question")
+    answers(v-bind:answers="questions[actual].answers", v-bind:colors="colors")
+   .content(v-if="show=='ranking'")
+    button.big(v-on:click="fade('intro')")  Volver
+    rank-list(v-bind:players="ranking")
+   div(v-if="show=='puntuation'")
+    puntuation(v-bind:player="player")
   script(src='/js/quiz.js')

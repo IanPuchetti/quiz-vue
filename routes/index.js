@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
 
 //Obtiene las 15 preguntas de la base de datos
 router.post('/questions',function(req,res,next){
-	col['questions'].find({},{answer:0}).toArray(function(err,result){ 
+	col['questions'].find({},{answer:0}).toArray(function(err,result){
 		res.send(shuffle(result)); //La función shuffle ordena aleatoriamente el arreglo y obtiene 5 de ellas
 	})
 });
@@ -63,5 +63,5 @@ router.post('/ranking',function(req,res,next){
 });
 
 function random(){return Math.floor((Math.random()*15)+1);}//Devuelve un numero aleatorio entre 1 y 15
-function shuffle(a){var c=a.length,t,r,o=[];while(0!==c){r=Math.floor(Math.random()*c);c-=1;t=a[c];a[c]=a[r];a[r]=t;};if(a.length>=5){for(var i=0;i<=5;i++){o.push(a[i])}return o;}else{return a;}}//Devuelve 5 elementos del arreglo pasado por parametro, desordenado aleatoriamente
+function shuffle(a){var c=a.length,t,r,o=[];while(0!==c){r=Math.floor(Math.random()*c);c-=1;t=a[c];a[c]=a[r];a[r]=t;};if(a.length>=5){for(var i=0;i<5;i++){o.push(a[i])}return o;}else{return a;}}//Devuelve 5 elementos del arreglo pasado por parametro, desordenado aleatoriamente
 module.exports = router;
